@@ -1,0 +1,163 @@
+[2021-11-26T10:13:03,051][INFO ][o.e.n.Node               ] [node-1] started
+[2021-11-26T10:13:03,262][INFO ][o.e.g.GatewayService     ] [node-1] recovered [0] indices into cluster_state
+[2021-11-26T11:09:37,075][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-26T11:09:37,085][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-26T11:09:42,914][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-26T11:09:43,118][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [399gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-26T11:09:43,118][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-26T11:09:43,120][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-26T11:09:43,121][INFO ][o.e.n.Node               ] [node-1] version[5.6.13-SNAPSHOT], pid[21447], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-26T11:09:43,121][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:58526, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-26T11:09:43,121][WARN ][o.e.n.Node               ] [node-1] version [5.6.13-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-26T11:09:54,005][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2021-11-26T11:09:54,006][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2021-11-26T11:09:54,006][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2021-11-26T11:09:54,006][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-groovy]
+[2021-11-26T11:09:54,006][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2021-11-26T11:09:54,006][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2021-11-26T11:09:54,006][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [parent-join]
+[2021-11-26T11:09:54,006][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [percolator]
+[2021-11-26T11:09:54,006][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [reindex]
+[2021-11-26T11:09:54,007][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty3]
+[2021-11-26T11:09:54,007][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2021-11-26T11:09:54,007][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2021-11-26T11:09:57,750][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [zen]
+[2021-11-26T11:09:58,746][INFO ][o.e.n.Node               ] [node-1] initialized
+[2021-11-26T11:09:58,747][INFO ][o.e.n.Node               ] [node-1] starting ...
+[2021-11-26T11:10:04,326][INFO ][o.e.t.TransportService   ] [node-1] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2021-11-26T11:10:04,365][WARN ][o.e.b.BootstrapChecks    ] [node-1] initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-11-26T11:10:04,365][WARN ][o.e.b.BootstrapChecks    ] [node-1] memory locking requested for elasticsearch process but memory is not locked
+[2021-11-26T11:10:07,464][INFO ][o.e.c.s.ClusterService   ] [node-1] new_master {node-1}{sC_SVtK0RHSg9Amk4SLv9w}{nt-eqBbVSe-pdXGD8tSawA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2021-11-26T11:10:07,494][INFO ][o.e.h.n.Netty4HttpServerTransport] [node-1] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2021-11-26T11:10:07,494][INFO ][o.e.n.Node               ] [node-1] started
+[2021-11-26T11:10:07,502][INFO ][o.e.g.GatewayService     ] [node-1] recovered [0] indices into cluster_state
+[2021-11-26T11:28:12,533][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-26T11:28:12,543][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-26T11:28:18,250][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-26T11:28:18,431][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [399gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-26T11:28:18,431][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-26T11:28:18,433][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-26T11:28:18,433][INFO ][o.e.n.Node               ] [node-1] version[5.6.13-SNAPSHOT], pid[21605], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-26T11:28:18,433][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:58826, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-26T11:28:18,433][WARN ][o.e.n.Node               ] [node-1] version [5.6.13-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-26T11:28:25,363][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2021-11-26T11:28:25,364][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2021-11-26T11:28:25,364][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2021-11-26T11:28:25,364][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-groovy]
+[2021-11-26T11:28:25,364][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2021-11-26T11:28:25,365][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2021-11-26T11:28:25,365][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [parent-join]
+[2021-11-26T11:28:25,365][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [percolator]
+[2021-11-26T11:28:25,365][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [reindex]
+[2021-11-26T11:28:25,365][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty3]
+[2021-11-26T11:28:25,365][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2021-11-26T11:28:25,365][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2021-11-26T11:42:22,309][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [zen]
+[2021-11-26T11:43:20,634][INFO ][o.e.n.Node               ] [node-1] initialized
+[2021-11-26T11:43:20,635][INFO ][o.e.n.Node               ] [node-1] starting ...
+[2021-11-26T11:43:26,133][INFO ][o.e.t.TransportService   ] [node-1] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2021-11-26T11:43:26,152][WARN ][o.e.b.BootstrapChecks    ] [node-1] initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-11-26T11:43:26,153][WARN ][o.e.b.BootstrapChecks    ] [node-1] memory locking requested for elasticsearch process but memory is not locked
+[2021-11-26T11:43:29,233][INFO ][o.e.c.s.ClusterService   ] [node-1] new_master {node-1}{sC_SVtK0RHSg9Amk4SLv9w}{LU90G0LHSfiSrQavyhP1hg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2021-11-26T11:43:29,261][INFO ][o.e.h.n.Netty4HttpServerTransport] [node-1] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2021-11-26T11:43:29,261][INFO ][o.e.n.Node               ] [node-1] started
+[2021-11-26T11:43:29,270][INFO ][o.e.g.GatewayService     ] [node-1] recovered [0] indices into cluster_state
+[2021-11-26T11:44:38,757][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-26T11:44:38,768][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-26T11:44:44,541][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-26T11:44:44,699][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [398gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-26T11:44:44,699][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-26T11:44:44,701][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-26T11:44:44,701][INFO ][o.e.n.Node               ] [node-1] version[5.6.13-SNAPSHOT], pid[21782], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-26T11:44:44,701][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:58923, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-26T11:44:44,701][WARN ][o.e.n.Node               ] [node-1] version [5.6.13-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-26T11:44:52,791][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2021-11-26T11:44:52,791][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2021-11-26T11:44:52,791][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2021-11-26T11:44:52,792][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-groovy]
+[2021-11-26T11:44:52,792][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2021-11-26T11:44:52,792][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2021-11-26T11:44:52,792][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [parent-join]
+[2021-11-26T11:44:52,792][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [percolator]
+[2021-11-26T11:44:52,792][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [reindex]
+[2021-11-26T11:44:52,792][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty3]
+[2021-11-26T11:44:52,792][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2021-11-26T11:44:52,793][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2021-11-26T11:45:10,057][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [zen]
+[2021-11-26T11:45:11,553][INFO ][o.e.n.Node               ] [node-1] initialized
+[2021-11-26T11:45:11,553][INFO ][o.e.n.Node               ] [node-1] starting ...
+[2021-11-26T11:45:17,111][INFO ][o.e.t.TransportService   ] [node-1] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2021-11-26T11:45:17,187][WARN ][o.e.b.BootstrapChecks    ] [node-1] initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-11-26T11:45:17,187][WARN ][o.e.b.BootstrapChecks    ] [node-1] memory locking requested for elasticsearch process but memory is not locked
+[2021-11-26T11:45:20,329][INFO ][o.e.c.s.ClusterService   ] [node-1] new_master {node-1}{sC_SVtK0RHSg9Amk4SLv9w}{_p1u5G6VSq6O_Nivnk20pQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2021-11-26T11:45:20,375][INFO ][o.e.h.n.Netty4HttpServerTransport] [node-1] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2021-11-26T11:45:20,375][INFO ][o.e.n.Node               ] [node-1] started
+[2021-11-26T11:45:20,395][INFO ][o.e.g.GatewayService     ] [node-1] recovered [0] indices into cluster_state
+[2021-11-26T14:00:19,932][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-26T14:00:19,944][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-26T14:00:25,658][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-26T14:00:25,792][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [397.9gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-26T14:00:25,792][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-26T14:00:25,793][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-26T14:00:25,794][INFO ][o.e.n.Node               ] [node-1] version[5.6.13-SNAPSHOT], pid[22184], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-26T14:00:25,794][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:59538, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-26T14:00:25,794][WARN ][o.e.n.Node               ] [node-1] version [5.6.13-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-26T14:00:32,994][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2021-11-26T14:00:32,994][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2021-11-26T14:00:32,994][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2021-11-26T14:00:32,994][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-groovy]
+[2021-11-26T14:00:32,994][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2021-11-26T14:00:32,994][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2021-11-26T14:00:32,994][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [parent-join]
+[2021-11-26T14:00:32,995][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [percolator]
+[2021-11-26T14:00:32,995][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [reindex]
+[2021-11-26T14:00:32,995][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty3]
+[2021-11-26T14:00:32,995][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2021-11-26T14:00:32,995][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2021-11-26T14:00:35,558][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [zen]
+[2021-11-26T14:12:57,373][INFO ][o.e.n.Node               ] [node-1] initialized
+[2021-11-26T14:12:57,375][INFO ][o.e.n.Node               ] [node-1] starting ...
+[2021-11-26T14:13:02,824][INFO ][o.e.t.TransportService   ] [node-1] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2021-11-26T14:13:02,846][WARN ][o.e.b.BootstrapChecks    ] [node-1] initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-11-26T14:13:02,847][WARN ][o.e.b.BootstrapChecks    ] [node-1] memory locking requested for elasticsearch process but memory is not locked
+[2021-11-26T14:13:05,948][INFO ][o.e.c.s.ClusterService   ] [node-1] new_master {node-1}{sC_SVtK0RHSg9Amk4SLv9w}{VELb0xMwRbWNICelmoPzwQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2021-11-26T14:13:06,002][INFO ][o.e.h.n.Netty4HttpServerTransport] [node-1] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2021-11-26T14:13:06,002][INFO ][o.e.n.Node               ] [node-1] started
+[2021-11-26T14:13:06,021][INFO ][o.e.g.GatewayService     ] [node-1] recovered [0] indices into cluster_state
+[2021-11-26T16:08:00,690][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-26T16:08:00,701][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-26T16:08:06,423][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-26T16:08:06,550][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [397.9gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-26T16:08:06,550][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-26T16:08:06,552][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-26T16:08:06,552][INFO ][o.e.n.Node               ] [node-1] version[5.6.13-SNAPSHOT], pid[22826], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-26T16:08:06,552][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:60130, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-26T16:08:06,553][WARN ][o.e.n.Node               ] [node-1] version [5.6.13-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-26T16:08:13,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2021-11-26T16:08:13,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2021-11-26T16:08:13,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2021-11-26T16:08:13,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-groovy]
+[2021-11-26T16:08:13,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2021-11-26T16:08:13,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2021-11-26T16:08:13,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [parent-join]
+[2021-11-26T16:08:13,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [percolator]
+[2021-11-26T16:08:13,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [reindex]
+[2021-11-26T16:08:13,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty3]
+[2021-11-26T16:08:13,790][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2021-11-26T16:08:13,790][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2021-11-26T16:08:16,179][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [zen]
+[2021-11-26T16:08:36,930][INFO ][o.e.n.Node               ] [node-1] initialized
+[2021-11-26T16:08:36,931][INFO ][o.e.n.Node               ] [node-1] starting ...
+[2021-11-26T16:08:42,461][INFO ][o.e.t.TransportService   ] [node-1] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2021-11-26T16:08:42,478][WARN ][o.e.b.BootstrapChecks    ] [node-1] initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-11-26T16:08:42,478][WARN ][o.e.b.BootstrapChecks    ] [node-1] memory locking requested for elasticsearch process but memory is not locked
+[2021-11-26T16:08:45,576][INFO ][o.e.c.s.ClusterService   ] [node-1] new_master {node-1}{sC_SVtK0RHSg9Amk4SLv9w}{ZQ-UUeC6Tpe6h1S3YEN5Ew}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2021-11-26T16:08:45,607][INFO ][o.e.h.n.Netty4HttpServerTransport] [node-1] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2021-11-26T16:08:45,608][INFO ][o.e.n.Node               ] [node-1] started
+[2021-11-26T16:08:45,615][INFO ][o.e.g.GatewayService     ] [node-1] recovered [0] indices into cluster_state
+[2021-11-26T16:11:55,861][INFO ][o.e.c.m.MetaDataCreateIndexService] [node-1] [commodity] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2021-11-26T16:14:54,338][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node-1] [commodity/UgXvCFJxQCOF6IvzNcoGYA] deleting index
+[2021-11-26T16:15:47,914][INFO ][o.e.c.m.MetaDataCreateIndexService] [node-1] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2021-11-26T16:16:50,718][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node-1] [test/lKqjHKl-Q5un9AFA8QKZGw] deleting index
+[2021-11-26T16:18:34,071][INFO ][o.e.c.m.MetaDataCreateIndexService] [node-1] [test] creating index, cause [api], templates [], shards [4]/[0], mappings []
+[2021-11-26T16:18:34,107][INFO ][o.e.c.r.a.AllocationService] [node-1] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][2], [test][0]] ...]).

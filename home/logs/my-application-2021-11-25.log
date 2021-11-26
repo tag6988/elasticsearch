@@ -1,0 +1,732 @@
+[2021-11-25T15:54:03,067][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: org.elasticsearch.bootstrap.BootstrapException: java.nio.file.FileSystemException: /Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/plugins/plugins.iml/plugin-descriptor.properties: Not a directory
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: org.elasticsearch.bootstrap.BootstrapException: java.nio.file.FileSystemException: /Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/plugins/plugins.iml/plugin-descriptor.properties: Not a directory
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:170) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+Caused by: java.nio.file.FileSystemException: /Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/plugins/plugins.iml/plugin-descriptor.properties: Not a directory
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:1.8.0_301]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_301]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_301]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:1.8.0_301]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_301]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_301]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_301]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_301]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:114) ~[main/:?]
+	at org.elasticsearch.bootstrap.Spawner.spawnNativePluginControllers(Spawner.java:80) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:168) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T15:55:09,140][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: org.elasticsearch.bootstrap.BootstrapException: java.nio.file.FileSystemException: /Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/plugins/plugins.iml/plugin-descriptor.properties: Not a directory
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: org.elasticsearch.bootstrap.BootstrapException: java.nio.file.FileSystemException: /Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/plugins/plugins.iml/plugin-descriptor.properties: Not a directory
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:170) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+Caused by: java.nio.file.FileSystemException: /Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/plugins/plugins.iml/plugin-descriptor.properties: Not a directory
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:1.8.0_301]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_301]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_301]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:1.8.0_301]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_301]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_301]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_301]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_301]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:114) ~[main/:?]
+	at org.elasticsearch.bootstrap.Spawner.spawnNativePluginControllers(Spawner.java:80) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:168) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T15:55:54,102][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: plugins directory [/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/plugins] not found
+	at org.elasticsearch.bootstrap.Spawner.spawnNativePluginControllers(Spawner.java:69) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:168) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T15:55:54,121][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: plugins directory [/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/plugins] not found
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.IllegalStateException: plugins directory [/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/plugins] not found
+	at org.elasticsearch.bootstrap.Spawner.spawnNativePluginControllers(Spawner.java:69) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:168) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T15:56:34,045][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: org.elasticsearch.bootstrap.BootstrapException: java.nio.file.FileSystemException: /Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/plugins/plugins.iml/plugin-descriptor.properties: Not a directory
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: org.elasticsearch.bootstrap.BootstrapException: java.nio.file.FileSystemException: /Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/plugins/plugins.iml/plugin-descriptor.properties: Not a directory
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:170) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+Caused by: java.nio.file.FileSystemException: /Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/plugins/plugins.iml/plugin-descriptor.properties: Not a directory
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:1.8.0_301]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_301]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_301]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:1.8.0_301]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_301]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_301]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_301]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_301]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:114) ~[main/:?]
+	at org.elasticsearch.bootstrap.Spawner.spawnNativePluginControllers(Spawner.java:80) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:168) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T16:03:53,278][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: plugins directory [/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/plugins] not found
+	at org.elasticsearch.bootstrap.Spawner.spawnNativePluginControllers(Spawner.java:69) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:168) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T16:03:53,302][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: plugins directory [/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/plugins] not found
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.IllegalStateException: plugins directory [/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/plugins] not found
+	at org.elasticsearch.bootstrap.Spawner.spawnNativePluginControllers(Spawner.java:69) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:168) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T16:04:52,614][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:04:52,622][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:04:58,370][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_301]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:220) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:177) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:119) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:228) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T16:04:58,384][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_301]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:220) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:177) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:119) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:228) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T16:09:50,455][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:09:50,464][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:09:56,228][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_301]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:220) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:177) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:119) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:228) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T16:09:56,242][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_301]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:220) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:177) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:119) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:228) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T16:14:23,413][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:14:23,443][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:14:33,343][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_301]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:220) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:177) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:119) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:228) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T16:14:33,379][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_301]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:220) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:177) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:119) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:228) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T16:20:33,398][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:20:33,426][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:27:37,260][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:27:37,269][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:27:43,061][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_301]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:220) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:177) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:119) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:228) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T16:27:43,073][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_301]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:220) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:177) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:119) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:228) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T16:28:52,154][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:28:52,187][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:29:42,343][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:29:42,352][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:34:52,761][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:34:52,772][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:35:56,982][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:35:56,992][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:38:46,013][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:38:46,022][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:38:51,721][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-25T16:38:51,869][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [400.2gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-25T16:38:51,870][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-25T16:38:51,871][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-25T16:38:51,871][INFO ][o.e.n.Node               ] [node-1] version[5.6.17-SNAPSHOT], pid[18380], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-25T16:38:51,871][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Djava.security.policy=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config/java.policy, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-25T16:38:51,871][WARN ][o.e.n.Node               ] [node-1] version [5.6.17-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-25T16:38:51,880][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:146) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.getModuleBundles(PluginsService.java:274) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:118) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:313) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T16:38:51,892][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:146) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.getModuleBundles(PluginsService.java:274) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:118) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:313) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T16:41:18,762][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:41:18,790][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:41:28,070][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-25T16:41:28,462][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [399.2gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-25T16:41:28,463][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-25T16:41:28,467][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-25T16:41:28,468][INFO ][o.e.n.Node               ] [node-1] version[5.6.17-SNAPSHOT], pid[18495], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-25T16:41:28,469][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Djava.security.policy=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config/java.policy, -Dlog4j2.disable.jmx=true, -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:53917, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-25T16:41:28,471][WARN ][o.e.n.Node               ] [node-1] version [5.6.17-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-25T16:43:02,158][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:43:02,184][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:44:08,671][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-25T16:44:09,127][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [399.2gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-25T16:44:09,128][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-25T16:44:09,132][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-25T16:44:09,133][INFO ][o.e.n.Node               ] [node-1] version[5.6.17-SNAPSHOT], pid[18599], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-25T16:44:09,134][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:53946, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-25T16:44:09,135][WARN ][o.e.n.Node               ] [node-1] version [5.6.17-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-25T16:46:14,391][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:46:14,402][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:46:52,303][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-25T16:47:04,682][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [398.2gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-25T16:47:04,683][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-25T16:48:30,024][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-25T16:48:45,469][INFO ][o.e.n.Node               ] [node-1] version[5.6.17-SNAPSHOT], pid[18704], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-25T16:48:46,371][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:53968, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-25T16:48:49,127][WARN ][o.e.n.Node               ] [node-1] version [5.6.17-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-25T16:50:05,590][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:146) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.getModuleBundles(PluginsService.java:274) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:118) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:313) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T16:50:05,618][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:146) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.getModuleBundles(PluginsService.java:274) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:118) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:313) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T16:55:03,759][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T16:55:03,768][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T16:55:09,454][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-25T16:55:09,584][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [398.2gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-25T16:55:09,584][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-25T16:55:09,586][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-25T16:55:09,586][INFO ][o.e.n.Node               ] [node-1] version[5.6.17-SNAPSHOT], pid[18844], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-25T16:55:09,586][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-25T16:55:09,586][WARN ][o.e.n.Node               ] [node-1] version [5.6.17-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-25T16:55:09,595][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:146) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.getModuleBundles(PluginsService.java:274) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:118) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:313) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T16:55:09,607][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:146) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.getModuleBundles(PluginsService.java:274) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:118) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:313) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T17:00:12,032][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T17:00:12,042][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T17:00:17,855][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-25T17:00:17,987][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [398.2gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-25T17:00:17,987][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-25T17:00:17,988][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-25T17:00:17,988][INFO ][o.e.n.Node               ] [node-1] version[5.6.17-SNAPSHOT], pid[18958], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-25T17:00:17,989][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-25T17:00:17,989][WARN ][o.e.n.Node               ] [node-1] version [5.6.17-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-25T17:00:17,997][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:146) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.getModuleBundles(PluginsService.java:274) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:118) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:313) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T17:00:18,008][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:146) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.getModuleBundles(PluginsService.java:274) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:118) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:313) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T17:05:55,866][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T17:05:55,876][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T17:06:00,696][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T17:06:00,712][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T17:06:01,956][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-25T17:06:02,102][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [398.2gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-25T17:06:02,103][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-25T17:06:02,104][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-25T17:06:02,105][INFO ][o.e.n.Node               ] [node-1] version[5.6.17-SNAPSHOT], pid[19178], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-25T17:06:02,105][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-25T17:06:02,105][WARN ][o.e.n.Node               ] [node-1] version [5.6.17-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-25T17:06:02,115][INFO ][o.e.p.PluginsService     ] [node-1] no modules loaded
+[2021-11-25T17:06:02,116][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2021-11-25T17:06:04,715][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: Unsupported transport.type []
+	at org.elasticsearch.common.network.NetworkModule.getTransportSupplier(NetworkModule.java:213) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:430) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T17:06:04,727][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: Unsupported transport.type []
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.IllegalStateException: Unsupported transport.type []
+	at org.elasticsearch.common.network.NetworkModule.getTransportSupplier(NetworkModule.java:213) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:430) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T17:06:09,106][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-25T17:06:09,530][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [398.2gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-25T17:06:09,531][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-25T17:06:09,534][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-25T17:06:09,534][INFO ][o.e.n.Node               ] [node-1] version[5.6.17-SNAPSHOT], pid[19181], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-25T17:06:09,535][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-25T17:06:09,539][WARN ][o.e.n.Node               ] [node-1] version [5.6.17-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-25T17:06:09,567][INFO ][o.e.p.PluginsService     ] [node-1] no modules loaded
+[2021-11-25T17:06:09,568][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2021-11-25T17:06:11,444][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: Unsupported transport.type []
+	at org.elasticsearch.common.network.NetworkModule.getTransportSupplier(NetworkModule.java:213) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:430) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T17:06:11,457][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: Unsupported transport.type []
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.IllegalStateException: Unsupported transport.type []
+	at org.elasticsearch.common.network.NetworkModule.getTransportSupplier(NetworkModule.java:213) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:430) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T17:09:11,087][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T17:09:11,098][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T17:09:17,033][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-25T17:09:17,143][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [398.2gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-25T17:09:17,143][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-25T17:09:17,145][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-25T17:09:17,145][INFO ][o.e.n.Node               ] [node-1] version[5.6.17-SNAPSHOT], pid[19303], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-25T17:09:17,145][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-25T17:09:17,145][WARN ][o.e.n.Node               ] [node-1] version [5.6.17-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-25T17:09:17,151][INFO ][o.e.p.PluginsService     ] [node-1] no modules loaded
+[2021-11-25T17:09:17,152][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2021-11-25T17:09:20,863][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: Unsupported transport.type []
+	at org.elasticsearch.common.network.NetworkModule.getTransportSupplier(NetworkModule.java:213) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:430) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T17:09:20,881][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: Unsupported transport.type []
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.IllegalStateException: Unsupported transport.type []
+	at org.elasticsearch.common.network.NetworkModule.getTransportSupplier(NetworkModule.java:213) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:430) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T17:10:12,789][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T17:10:12,798][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T17:10:18,518][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-25T17:10:18,664][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [398.1gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-25T17:10:18,664][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-25T17:10:18,665][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-25T17:10:18,665][INFO ][o.e.n.Node               ] [node-1] version[5.6.17-SNAPSHOT], pid[19421], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-25T17:10:18,666][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-25T17:10:18,666][WARN ][o.e.n.Node               ] [node-1] version [5.6.17-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-25T17:10:18,673][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:146) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.getModuleBundles(PluginsService.java:274) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:118) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:313) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [main/:?]
+[2021-11-25T17:10:18,687][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:70) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[main/:?]
+Caused by: java.lang.IllegalArgumentException: plugin [percolator] is incompatible with version [5.6.17]; was designed for version [5.6.13]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:146) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.getModuleBundles(PluginsService.java:274) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:118) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:313) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:245) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:233) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:342) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[main/:?]
+	... 6 more
+[2021-11-25T17:12:08,235][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T17:12:08,244][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T17:12:13,940][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-25T17:12:14,038][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [398.1gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-25T17:12:14,038][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-25T17:12:14,040][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-25T17:12:14,040][INFO ][o.e.n.Node               ] [node-1] version[5.6.13-SNAPSHOT], pid[19542], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-25T17:12:14,040][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-25T17:12:14,041][WARN ][o.e.n.Node               ] [node-1] version [5.6.13-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-25T17:12:22,508][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2021-11-25T17:12:22,508][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2021-11-25T17:12:22,508][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2021-11-25T17:12:22,508][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-groovy]
+[2021-11-25T17:12:22,508][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2021-11-25T17:12:22,509][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2021-11-25T17:12:22,509][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [parent-join]
+[2021-11-25T17:12:22,509][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [percolator]
+[2021-11-25T17:12:22,509][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [reindex]
+[2021-11-25T17:12:22,509][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty3]
+[2021-11-25T17:12:22,509][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2021-11-25T17:12:22,510][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2021-11-25T17:12:25,045][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [zen]
+[2021-11-25T17:12:25,530][INFO ][o.e.n.Node               ] [node-1] initialized
+[2021-11-25T17:12:25,530][INFO ][o.e.n.Node               ] [node-1] starting ...
+[2021-11-25T17:12:30,911][INFO ][o.e.t.TransportService   ] [node-1] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2021-11-25T17:12:30,923][WARN ][o.e.b.BootstrapChecks    ] [node-1] initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-11-25T17:12:30,923][WARN ][o.e.b.BootstrapChecks    ] [node-1] memory locking requested for elasticsearch process but memory is not locked
+[2021-11-25T17:12:33,996][INFO ][o.e.c.s.ClusterService   ] [node-1] new_master {node-1}{sC_SVtK0RHSg9Amk4SLv9w}{0lgEqumESquXwCBxBPtbhw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2021-11-25T17:12:34,024][INFO ][o.e.h.n.Netty4HttpServerTransport] [node-1] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2021-11-25T17:12:34,024][INFO ][o.e.n.Node               ] [node-1] started
+[2021-11-25T17:12:34,028][INFO ][o.e.g.GatewayService     ] [node-1] recovered [0] indices into cluster_state
+[2021-11-25T17:55:10,741][INFO ][o.e.n.Node               ] [node-1] stopping ...
+[2021-11-25T17:56:31,553][WARN ][o.e.b.JNANatives         ] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2021-11-25T17:56:31,594][WARN ][o.e.b.JNANatives         ] This can result in part of the JVM being swapped out.
+[2021-11-25T17:56:40,581][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2021-11-25T17:56:40,966][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s2)]], net usable_space [397.1gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2021-11-25T17:56:40,966][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [3.5gb], compressed ordinary object pointers [true]
+[2021-11-25T17:56:40,970][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [sC_SVtK0RHSg9Amk4SLv9w]
+[2021-11-25T17:56:40,971][INFO ][o.e.n.Node               ] [node-1] version[5.6.13-SNAPSHOT], pid[19950], build[Unknown/Unknown], OS[Mac OS X/10.16/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_301/25.301-b09]
+[2021-11-25T17:56:40,972][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home/config, -Des.path.home=/Users/s.xu/Softwore/IDEA/workspace/aftership/elasticsearch/home, -Dlog4j2.disable.jmx=true, -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:54670, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-11-25T17:56:40,973][WARN ][o.e.n.Node               ] [node-1] version [5.6.13-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-11-25T17:57:30,989][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2021-11-25T17:57:30,990][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2021-11-25T17:57:30,990][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2021-11-25T17:57:30,991][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-groovy]
+[2021-11-25T17:57:30,991][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2021-11-25T17:57:30,992][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2021-11-25T17:57:30,992][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [parent-join]
+[2021-11-25T17:57:30,992][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [percolator]
+[2021-11-25T17:57:30,993][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [reindex]
+[2021-11-25T17:57:30,993][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty3]
+[2021-11-25T17:57:30,994][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2021-11-25T17:57:30,995][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2021-11-25T17:57:40,836][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [zen]
+[2021-11-25T17:57:44,717][INFO ][o.e.n.Node               ] [node-1] initialized
+[2021-11-25T17:58:06,725][INFO ][o.e.n.Node               ] [node-1] starting ...
+[2021-11-25T17:58:25,505][INFO ][o.e.t.TransportService   ] [node-1] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2021-11-25T17:58:25,532][WARN ][o.e.b.BootstrapChecks    ] [node-1] initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-11-25T17:58:25,532][WARN ][o.e.b.BootstrapChecks    ] [node-1] memory locking requested for elasticsearch process but memory is not locked
+[2021-11-25T17:58:28,649][INFO ][o.e.c.s.ClusterService   ] [node-1] new_master {node-1}{sC_SVtK0RHSg9Amk4SLv9w}{UEBH27m_QnWXkKbYtmHhwg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2021-11-25T17:58:28,687][INFO ][o.e.h.n.Netty4HttpServerTransport] [node-1] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}

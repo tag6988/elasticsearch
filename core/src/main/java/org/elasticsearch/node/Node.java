@@ -508,6 +508,9 @@ public class Node implements Closeable {
             client.initialize(injector.getInstance(new Key<Map<GenericAction, TransportAction>>() {}),
                     () -> clusterService.localNode().getId());
 
+            /**
+             * 初始化rest handler
+             */
             if (NetworkModule.HTTP_ENABLED.get(settings)) {
                 logger.debug("initializing HTTP handlers ...");
                 actionModule.initRestHandlers(() -> clusterService.state().nodes());

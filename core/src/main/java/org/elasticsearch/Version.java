@@ -177,7 +177,7 @@ public class Version implements Comparable<Version> {
     public static final int V_5_6_17_ID_UNRELEASED = 5061799;
     public static final Version V_5_6_17_UNRELEASED = new Version(V_5_6_17_ID_UNRELEASED, org.apache.lucene.util.Version.LUCENE_6_6_1);
 
-    public static final Version CURRENT = V_5_6_17_UNRELEASED;
+    public static final Version CURRENT = V_5_6_13;
 
     // unreleased versions must be added to the above list with the suffix _UNRELEASED (with the exception of CURRENT)
 
